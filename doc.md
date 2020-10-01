@@ -1,10 +1,5 @@
-### How to use this template:
+MRCS-Remote-Switch-Motor-Controller
 
-  1. Create a repo using this template, 
-  2. Create your project content using eagle...
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
-  
+The Remote Stall Motor Controller is designed to mount on a Circuitron(r) Tortoise slow motion switch machine and 
+provides bi-polar control with a single logic level line, such as provided by a cpNode, IOX16/32, SMINI, DOUT, or
+SPST toggle switch.  The RSMC can also be used to control the MP1 switch motor.
