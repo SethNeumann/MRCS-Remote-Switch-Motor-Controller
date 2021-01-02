@@ -49,7 +49,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -89,6 +89,19 @@
 <text x="8.89" y="34.29" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M+</text>
 <text x="33.02" y="34.29" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M-</text>
 <text x="36.83" y="26.035" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9</text>
+<text x="18.415" y="6.985" size="0.8128" layer="125" font="vector">C1</text>
+<text x="8.4725" y="1.76499375" size="0.8128" layer="125" font="vector" rot="R180">CON1</text>
+<text x="5.08" y="32.893" size="0.8128" layer="125" font="vector">J1</text>
+<text x="5.0038" y="34.29" size="0.8128" layer="125" font="vector" ratio="10">J2</text>
+<text x="1.27" y="36.449" size="0.8128" layer="125" font="vector" ratio="10">M1</text>
+<text x="35.56" y="36.449" size="0.8128" layer="125" font="vector" ratio="10">M8</text>
+<text x="36.195" y="7.62" size="1.27" layer="125" font="vector" ratio="10" rot="R270">Q1</text>
+<text x="23.495" y="18.415" size="1.6764" layer="125" font="vector" ratio="10" rot="R270">R3</text>
+<text x="28.575" y="18.415" size="1.6764" layer="125" font="vector" ratio="10" rot="R270">R4</text>
+<text x="31.115" y="18.415" size="1.6764" layer="125" font="vector" ratio="10" rot="R270">R5</text>
+<text x="26.035" y="18.415" size="1.6764" layer="125" font="vector" ratio="10" rot="R270">R6</text>
+<text x="13.97" y="5.588" size="1.27" layer="125" font="vector">ST1</text>
+<text x="12.954" y="19.304" size="0.8128" layer="125" font="vector" ratio="10">U1</text>
 <text x="18.415" y="6.985" size="0.8128" layer="125" font="vector">C1</text>
 <text x="8.4725" y="1.76499375" size="0.8128" layer="125" font="vector" rot="R180">CON1</text>
 <text x="5.08" y="32.893" size="0.8128" layer="125" font="vector">J1</text>
@@ -360,34 +373,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </package>
 </packages>
 </library>
-<library name="SparkFun-Capacitors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="CAP-PTH-SMALLEZ">
-<description>This is the "EZ" version of the .1" spaced ceramic thru-hole cap.&lt;br&gt;
-It has reduced top mask to make it harder to put the component on the wrong side of the board.</description>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="0.7" diameter="1.651" stop="no"/>
-<pad name="2" x="2.54" y="0" drill="0.7" diameter="1.651" stop="no"/>
-<text x="-1.27" y="1.905" size="0.6096" layer="25">&gt;Name</text>
-<text x="-1.27" y="-2.54" size="0.6096" layer="27">&gt;Value</text>
-<circle x="0" y="0" radius="0.898025" width="0" layer="30"/>
-<circle x="2.54" y="0" radius="0.915809375" width="0" layer="30"/>
-<circle x="0" y="0" radius="0.40160625" width="0" layer="29"/>
-<circle x="2.54" y="0" radius="0.40160625" width="0" layer="29"/>
-</package>
-</packages>
-</library>
 <library name="MRCSLogoBtm">
 <description>Model Railroad Control Systems LOGO</description>
 <packages>
@@ -422,6 +407,32 @@ known to the State of California to cause cancer
 and birth defects or other reproductive harm.
 California law requires this warning to be 
 given to customers in the State of California</text>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Passives">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="CAP-PTH-SMALLEZ">
+<description>This is the "EZ" version of the .1" spaced ceramic thru-hole cap.&lt;br&gt;
+It has reduced top mask to make it harder to put the component on the wrong side of the board.</description>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="0.7" diameter="1.651" stop="no"/>
+<pad name="2" x="2.54" y="0" drill="0.7" diameter="1.651" stop="no"/>
+<text x="-1.27" y="1.905" size="0.6096" layer="25">&gt;Name</text>
+<text x="-1.27" y="-2.54" size="0.6096" layer="27">&gt;Value</text>
+<circle x="0" y="0" radius="0.898025" width="0" layer="30"/>
+<circle x="2.54" y="0" radius="0.915809375" width="0" layer="30"/>
+<circle x="0" y="0" radius="0.40160625" width="0" layer="29"/>
+<circle x="2.54" y="0" radius="0.40160625" width="0" layer="29"/>
 </package>
 </packages>
 </library>
@@ -608,7 +619,7 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALLEZ" value=".01uF" x="13.97" y="6.985" smashed="yes">
+<element name="C1" library="SparkFun-Passives" package="CAP-PTH-SMALLEZ" value=".01uF" x="13.97" y="6.985" smashed="yes">
 <attribute name="NAME" x="18.415" y="6.985" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="12.7" y="4.445" size="0.6096" layer="27"/>
 </element>

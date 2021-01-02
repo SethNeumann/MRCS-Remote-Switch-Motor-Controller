@@ -7,8 +7,8 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="D:/OneDrive/documents/Eagle/library/lib/SparkFun-Capacitors.lbr"
 UsedLibrary="D:/OneDrive/documents/Eagle/library/lib/SparkFun-Connectors.lbr"
+UsedLibrary="D:/OneDrive/documents/Eagle/library/lib/SparkFun-Passives.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/19inch.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/40xx.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/41xx.lbr"
@@ -360,12 +360,20 @@ UsedLibrary="D:/OneDrive/Documents/GitHub/EagleTools/parts/SparkFun-Resistors.lb
 UsedLibrary="D:/OneDrive/Documents/GitHub/EagleTools/parts/SPCoast.lbr"
 
 [Win_1]
+Type="CAM Processor"
+Loc="-8 -31 591 404"
+State=2
+Number=3
+File="MRCS-Remote-Switch-Motor-Controller-Array.brd"
+Job="D:/OneDrive/Documents/GitHub/EagleTools/cam/SPCoast-gerb274x-Values.cam"
+
+[Win_2]
 Type="Schematic Editor"
 Loc="147 0 1715 1007"
 State=0
 Number=1
 File="MRCS-Remote-Switch-Motor-Controller.sch"
-View="9.56552 -6.99267 269.182 186.584"
+View="34.0886 8.96528 250.436 170.279"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.000153125"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -404,12 +412,58 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 9.56552 -6.99267 269.182 186.584"
+Views=" 1: 34.0886 8.96528 250.436 170.279"
 Sheet="1"
 
-[Win_2]
+[Win_3]
+Type="Board Editor"
+Loc="433 0 1522 1007"
+State=2
+Number=2
+File="MRCS-Remote-Switch-Motor-Controller-Array.brd"
+View="-12.0879 -7.6708 88.1609 87.4268"
+WireWidths=" 0.3048 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.54 3.81 6.4516 0.4064 0.254 2.1844 0.6096 0"
+PadDiameters=" 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0 1.0064"
+PadDrills=" 0.5 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 0.8 0.6 3.2"
+ViaDiameters=" 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0 1.0064"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 0.6 3.2"
+HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 0.6 3.2"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 1.4224 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.016 1.778 1.6764 1.27 0.8128"
+PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
+PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
+MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
+DimensionWidths=" 0 0.127 0.254 0.1 0.26 0.13"
+DimensionExtWidths=" 0.127 0.254 0.1 0.13 0.26 0"
+DimensionExtLengths=" 1.27 2.54 1 2 3 0"
+DimensionExtOffsets=" 1.27 2.54 1 2 3 0"
+SmdSizes=" 0.3048 0.1524 0.4064 0.2032 0.6096 0.3048 0.8128 0.4064 1.016 0.508 1.27 0.6604 1.4224 0.7112 1.6764 0.8128 1.778 0.9144 1.9304 0.9652 2.1844 1.0668 2.54 1.27 3.81 1.9304 5.08 2.54 6.4516 3.2512 1.27 0.635"
+WireBend=2
+WireBendSet=0
+WireCap=1
+MiterStyle=0
+PadShape=1
+ViaShape=1
+PolygonPour=0
+PolygonRank=1
+PolygonThermals=1
+PolygonOrphans=0
+TextRatio=10
+DimensionUnit=1
+DimensionPrecision=2
+DimensionShowUnit=0
+PinDirection=3
+PinFunction=0
+PinLength=2
+PinVisible=3
+SwapLevel=0
+ArcDirection=0
+AddLevel=2
+PadsSameType=0
+Layer=125
+
+[Win_4]
 Type="Control Panel"
-Loc="375 221 974 620"
+Loc="-8 -31 591 368"
 State=2
 Number=0
 
@@ -417,3 +471,5 @@ Number=0
 Screen="1920 1080"
 Window="Win_1"
 Window="Win_2"
+Window="Win_3"
+Window="Win_4"
