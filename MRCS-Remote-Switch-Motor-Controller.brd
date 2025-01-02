@@ -88,7 +88,7 @@
 <text x="36.83" y="27.94" size="1.016" layer="21" font="vector" ratio="10" rot="R90">X-over</text>
 <text x="8.89" y="34.29" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M+</text>
 <text x="33.02" y="34.29" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M-</text>
-<text x="36.83" y="26.035" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9</text>
+<text x="36.83" y="26.035" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9a</text>
 <text x="18.415" y="6.985" size="0.8128" layer="125" font="vector">C1</text>
 <text x="8.4725" y="1.76499375" size="0.8128" layer="125" font="vector" rot="R180">CON1</text>
 <text x="5.08" y="32.893" size="0.8128" layer="125" font="vector">J1</text>
@@ -115,6 +115,19 @@
 <text x="26.035" y="18.415" size="1.6764" layer="125" font="vector" ratio="10" rot="R270">R6</text>
 <text x="13.97" y="5.588" size="1.27" layer="125" font="vector">ST1</text>
 <text x="12.954" y="19.304" size="0.8128" layer="125" font="vector" ratio="10">U1</text>
+<text x="18.415" y="6.985" size="0.8128" layer="125">C1</text>
+<text x="8.4725" y="1.76499375" size="0.8128" layer="125" rot="R180">CON1</text>
+<text x="5.08" y="32.893" size="0.8128" layer="125">J1</text>
+<text x="5.0038" y="34.29" size="0.8128" layer="125" ratio="10">J2</text>
+<text x="1.27" y="36.449" size="0.8128" layer="125" ratio="10">M1</text>
+<text x="35.56" y="36.449" size="0.8128" layer="125" ratio="10">M8</text>
+<text x="36.195" y="7.62" size="1.27" layer="125" ratio="10" rot="R270">Q1</text>
+<text x="23.495" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R3</text>
+<text x="28.575" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R4</text>
+<text x="31.115" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R5</text>
+<text x="26.035" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R6</text>
+<text x="13.97" y="5.588" size="1.27" layer="125">ST1</text>
+<text x="12.954" y="19.304" size="0.8128" layer="125" ratio="10">U1</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">

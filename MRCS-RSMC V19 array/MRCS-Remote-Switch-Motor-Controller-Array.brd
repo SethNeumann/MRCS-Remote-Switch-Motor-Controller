@@ -172,7 +172,7 @@
 <text x="36.83" y="27.94" size="1.016" layer="21" font="vector" ratio="10" rot="R90">X-over</text>
 <text x="8.89" y="34.29" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M+</text>
 <text x="33.02" y="34.29" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M-</text>
-<text x="36.83" y="26.035" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9a</text>
+<text x="36.83" y="26.035" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9</text>
 <text x="18.415" y="6.985" size="0.8128" layer="125" font="vector">C1</text>
 <text x="8.4725" y="1.76499375" size="0.8128" layer="125" font="vector" rot="R180">CON1</text>
 <text x="5.08" y="32.893" size="0.8128" layer="125" font="vector">J1</text>
@@ -199,22 +199,9 @@
 <text x="26.035" y="18.415" size="1.6764" layer="125" font="vector" ratio="10" rot="R270">R6</text>
 <text x="13.97" y="5.588" size="1.27" layer="125" font="vector">ST1</text>
 <text x="12.954" y="19.304" size="0.8128" layer="125" font="vector" ratio="10">U1</text>
-<text x="18.415" y="6.985" size="0.8128" layer="125">C1</text>
-<text x="8.4725" y="1.76499375" size="0.8128" layer="125" rot="R180">CON1</text>
-<text x="5.08" y="32.893" size="0.8128" layer="125">J1</text>
-<text x="5.0038" y="34.29" size="0.8128" layer="125" ratio="10">J2</text>
-<text x="1.27" y="36.449" size="0.8128" layer="125" ratio="10">M1</text>
-<text x="35.56" y="36.449" size="0.8128" layer="125" ratio="10">M8</text>
-<text x="36.195" y="7.62" size="1.27" layer="125" ratio="10" rot="R270">Q1</text>
-<text x="23.495" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R3</text>
-<text x="28.575" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R4</text>
-<text x="31.115" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R5</text>
-<text x="26.035" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R6</text>
-<text x="13.97" y="5.588" size="1.27" layer="125">ST1</text>
-<text x="12.954" y="19.304" size="0.8128" layer="125" ratio="10">U1</text>
 <hole x="19.05" y="22.86" drill="3.2"/>
 <wire x1="-2.54" y1="37.973" x2="81.026" y2="37.973" width="0" layer="46"/>
-<text x="-2.54" y="37.973" size="1.016" layer="46" ratio="10" rot="R90">V-Score</text>
+<text x="-2.54" y="37.973" size="1.016" layer="46" font="vector" ratio="10" rot="R90">V-Score</text>
 <wire x1="0" y1="37.973" x2="37.973" y2="37.973" width="0" layer="101"/>
 <wire x1="37.973" y1="75.946" x2="0" y2="75.946" width="0" layer="101"/>
 <wire x1="0" y1="75.946" x2="0" y2="37.973" width="0" layer="101"/>
@@ -231,7 +218,7 @@
 <text x="36.83" y="65.913" size="1.016" layer="21" font="vector" ratio="10" rot="R90">X-over</text>
 <text x="8.89" y="72.263" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M+</text>
 <text x="33.02" y="72.263" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M-</text>
-<text x="36.83" y="64.008" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9a</text>
+<text x="36.83" y="64.008" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9</text>
 <text x="18.415" y="44.958" size="0.8128" layer="125" font="vector">C1</text>
 <text x="8.4725" y="39.73799375" size="0.8128" layer="125" font="vector" rot="R180">CON1</text>
 <text x="5.08" y="70.866" size="0.8128" layer="125" font="vector">J1</text>
@@ -258,22 +245,9 @@
 <text x="26.035" y="56.388" size="1.6764" layer="125" font="vector" ratio="10" rot="R270">R6</text>
 <text x="13.97" y="43.561" size="1.27" layer="125" font="vector">ST1</text>
 <text x="12.954" y="57.277" size="0.8128" layer="125" font="vector" ratio="10">U1</text>
-<text x="18.415" y="44.958" size="0.8128" layer="125">C1</text>
-<text x="8.4725" y="39.73799375" size="0.8128" layer="125" rot="R180">CON1</text>
-<text x="5.08" y="70.866" size="0.8128" layer="125">J1</text>
-<text x="5.0038" y="72.263" size="0.8128" layer="125" ratio="10">J2</text>
-<text x="1.27" y="74.422" size="0.8128" layer="125" ratio="10">M1</text>
-<text x="35.56" y="74.422" size="0.8128" layer="125" ratio="10">M8</text>
-<text x="36.195" y="45.593" size="1.27" layer="125" ratio="10" rot="R270">Q1</text>
-<text x="23.495" y="56.388" size="1.6764" layer="125" ratio="10" rot="R270">R3</text>
-<text x="28.575" y="56.388" size="1.6764" layer="125" ratio="10" rot="R270">R4</text>
-<text x="31.115" y="56.388" size="1.6764" layer="125" ratio="10" rot="R270">R5</text>
-<text x="26.035" y="56.388" size="1.6764" layer="125" ratio="10" rot="R270">R6</text>
-<text x="13.97" y="43.561" size="1.27" layer="125">ST1</text>
-<text x="12.954" y="57.277" size="0.8128" layer="125" ratio="10">U1</text>
 <hole x="19.05" y="60.833" drill="3.2"/>
 <wire x1="37.973" y1="-2.54" x2="37.973" y2="81.026" width="0" layer="46"/>
-<text x="37.973" y="-2.54" size="1.016" layer="46" ratio="10" rot="R180">V-Score</text>
+<text x="37.973" y="-2.54" size="1.016" layer="46" font="vector" ratio="10" rot="R180">V-Score</text>
 <wire x1="37.973" y1="0" x2="75.946" y2="0" width="0" layer="101"/>
 <wire x1="75.946" y1="0" x2="75.946" y2="37.973" width="0" layer="101"/>
 <wire x1="37.973" y1="37.973" x2="37.973" y2="0" width="0" layer="101"/>
@@ -290,7 +264,7 @@
 <text x="74.803" y="27.94" size="1.016" layer="21" font="vector" ratio="10" rot="R90">X-over</text>
 <text x="46.863" y="34.29" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M+</text>
 <text x="70.993" y="34.29" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M-</text>
-<text x="74.803" y="26.035" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9a</text>
+<text x="74.803" y="26.035" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9</text>
 <text x="56.388" y="6.985" size="0.8128" layer="125" font="vector">C1</text>
 <text x="46.4455" y="1.76499375" size="0.8128" layer="125" font="vector" rot="R180">CON1</text>
 <text x="43.053" y="32.893" size="0.8128" layer="125" font="vector">J1</text>
@@ -317,19 +291,6 @@
 <text x="64.008" y="18.415" size="1.6764" layer="125" font="vector" ratio="10" rot="R270">R6</text>
 <text x="51.943" y="5.588" size="1.27" layer="125" font="vector">ST1</text>
 <text x="50.927" y="19.304" size="0.8128" layer="125" font="vector" ratio="10">U1</text>
-<text x="56.388" y="6.985" size="0.8128" layer="125">C1</text>
-<text x="46.4455" y="1.76499375" size="0.8128" layer="125" rot="R180">CON1</text>
-<text x="43.053" y="32.893" size="0.8128" layer="125">J1</text>
-<text x="42.9768" y="34.29" size="0.8128" layer="125" ratio="10">J2</text>
-<text x="39.243" y="36.449" size="0.8128" layer="125" ratio="10">M1</text>
-<text x="73.533" y="36.449" size="0.8128" layer="125" ratio="10">M8</text>
-<text x="74.168" y="7.62" size="1.27" layer="125" ratio="10" rot="R270">Q1</text>
-<text x="61.468" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R3</text>
-<text x="66.548" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R4</text>
-<text x="69.088" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R5</text>
-<text x="64.008" y="18.415" size="1.6764" layer="125" ratio="10" rot="R270">R6</text>
-<text x="51.943" y="5.588" size="1.27" layer="125">ST1</text>
-<text x="50.927" y="19.304" size="0.8128" layer="125" ratio="10">U1</text>
 <hole x="57.023" y="22.86" drill="3.2"/>
 <wire x1="0" y1="0" x2="75.946" y2="0" width="0.254" layer="20"/>
 <wire x1="75.946" y1="0" x2="75.946" y2="75.946" width="0.254" layer="20"/>
@@ -352,7 +313,7 @@
 <text x="74.803" y="65.913" size="1.016" layer="21" font="vector" ratio="10" rot="R90">X-over</text>
 <text x="46.863" y="72.263" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M+</text>
 <text x="70.993" y="72.263" size="1.016" layer="21" font="vector" ratio="10" rot="R90">M-</text>
-<text x="74.803" y="64.008" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9a</text>
+<text x="74.803" y="64.008" size="1.778" layer="52" font="vector" ratio="10" rot="MR270">RSMC V1.9</text>
 <text x="56.388" y="44.958" size="0.8128" layer="125" font="vector">C1</text>
 <text x="46.4455" y="39.73799375" size="0.8128" layer="125" font="vector" rot="R180">CON1</text>
 <text x="43.053" y="70.866" size="0.8128" layer="125" font="vector">J1</text>
@@ -379,19 +340,6 @@
 <text x="64.008" y="56.388" size="1.6764" layer="125" font="vector" ratio="10" rot="R270">R6</text>
 <text x="51.943" y="43.561" size="1.27" layer="125" font="vector">ST1</text>
 <text x="50.927" y="57.277" size="0.8128" layer="125" font="vector" ratio="10">U1</text>
-<text x="56.388" y="44.958" size="0.8128" layer="125">C1</text>
-<text x="46.4455" y="39.73799375" size="0.8128" layer="125" rot="R180">CON1</text>
-<text x="43.053" y="70.866" size="0.8128" layer="125">J1</text>
-<text x="42.9768" y="72.263" size="0.8128" layer="125" ratio="10">J2</text>
-<text x="39.243" y="74.422" size="0.8128" layer="125" ratio="10">M1</text>
-<text x="73.533" y="74.422" size="0.8128" layer="125" ratio="10">M8</text>
-<text x="74.168" y="45.593" size="1.27" layer="125" ratio="10" rot="R270">Q1</text>
-<text x="61.468" y="56.388" size="1.6764" layer="125" ratio="10" rot="R270">R3</text>
-<text x="66.548" y="56.388" size="1.6764" layer="125" ratio="10" rot="R270">R4</text>
-<text x="69.088" y="56.388" size="1.6764" layer="125" ratio="10" rot="R270">R5</text>
-<text x="64.008" y="56.388" size="1.6764" layer="125" ratio="10" rot="R270">R6</text>
-<text x="51.943" y="43.561" size="1.27" layer="125">ST1</text>
-<text x="50.927" y="57.277" size="0.8128" layer="125" ratio="10">U1</text>
 <hole x="57.023" y="60.833" drill="3.2"/>
 </plain>
 <libraries>
@@ -682,12 +630,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <packages>
 <package name="CA-PROP65WARNING">
 <description>State of California Proposition 65 Warning</description>
-<text x="7.62" y="0" size="0.6096" layer="52" font="vector" rot="MR0" align="center-left">   CALIFORNIA PROPOSITION 65 WARNING
-WARNING: This product contains chemicals
-known to the State of California to cause cancer
-and birth defects or other reproductive harm.
-California law requires this warning to be 
-given to customers in the State of California</text>
 <text x="7.62" y="0" size="0.6096" layer="52" font="vector" rot="MR0" align="center-left">   CALIFORNIA PROPOSITION 65 WARNING
 WARNING: This product contains chemicals
 known to the State of California to cause cancer
